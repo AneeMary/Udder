@@ -12,11 +12,23 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        func didReceiveMemoryWarning() {
+            super.didReceiveMemoryWarning()
+            // Dispose of any resorces that can be recreated.
+        }
+        
+        
     }
     
     override func viewWillDisappear(_ animated: Bool) {
         //
     }
 
+    override func viewDidDisappear(_ animated: Bool) {
+        //
+        
+    }
+    
 }
 
